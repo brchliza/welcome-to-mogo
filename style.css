@@ -26,34 +26,129 @@ body {
   padding: 0;
 }
 .container {
-    width: 1215px;
-    margin: 0 auto;
-    outline: 2px solid red;
+  width: 1215px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 header {
-    background:   linear-gradient(#e68282e1, #efd089d7), url(./img/eagle.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-      background-position: center;
-    height: 1000px;
+  background: linear-gradient(#e68282e1, #efd089d7), url(./img/eagle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
-.logo{
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      color: #ffffff;
-      font-size: 30px;
+.logo {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
 }
-.menu-list{
-    font-family: "Montserrat", sans-serif;
-       font-optical-sizing: auto;
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.menu-list {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-     font-size: 14px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
-.menu-title{
+.menu-title {
   font-weight: 400;
   font-style: normal;
-     font-size: 14px;
-     color: #ffffff;
+  font-size: 14px;
+  color: #ffffff;
+}
+.text-under-line{
+  outline: 2px solid #fce38a;
+  width: 50px;
+  display: none;
+}
+
+.menu-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-title:hover{
+  color: #fce38a;
+}
+.main-text{
+  width: 830px;
+  margin: 0 auto;
+  padding-top: 170px;
+  /* display: flex;
+  flex-direction: column;
+  text-align: center; */
+}
+.template-text{
+    font-family: "Kaushan Script", cursive;
+    font-size: 72px;
+    color: #ffffff;
+      text-align: center;
+}
+.welcome-text{
+    font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 150px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 25px;
+}
+.line{
+  outline: 2px solid white;
+  width: 60px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.main-button{
+  background: none;
+  border: none;
+  outline: 2px solid #ffffff;
+  padding: 10px 30px;
+      font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 337px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.step {
+  text-align: center;
+  cursor: pointer;
+}
+.steps{
+  display: flex;
+}
+.step-line {
+  width: 150px; /* длина полоски */
+  height: 2px;
+  background: #ccc; /* изначально серая */
+  margin: 0 auto 10px auto;
+}
+
+.step-text {
+  color: #ccc; /* изначально серый текст */
+  font-weight: 700;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.step span {
+  font-weight: bold;
+}
+
+/* Ховер: цветная полоса и текст */
+.step:hover .step-line,
+.step:hover .step-text {
+  color: #e47676;          /* розовый цвет текста при ховере */
+  background: #e47676;     /* розовая линия при ховере */
 }
