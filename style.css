@@ -67,21 +67,21 @@ header {
   font-size: 14px;
   color: #ffffff;
 }
-.text-under-line{
+.text-under-line {
   outline: 2px solid #fce38a;
   width: 50px;
   display: none;
 }
 
-.menu-item{
+.menu-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.menu-title:hover{
+.menu-title:hover {
   color: #fce38a;
 }
-.main-text{
+.main-text {
   width: 830px;
   margin: 0 auto;
   padding-top: 170px;
@@ -89,32 +89,32 @@ header {
   flex-direction: column;
   text-align: center; */
 }
-.template-text{
-    font-family: "Kaushan Script", cursive;
-    font-size: 72px;
-    color: #ffffff;
-      text-align: center;
+.template-text {
+  font-family: "Kaushan Script", cursive;
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
 }
-.welcome-text{
-    font-family: "Montserrat", sans-serif;
+.welcome-text {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 150px;
   text-align: center;
   color: #ffffff;
   padding-top: 25px;
 }
-.line{
+.line {
   outline: 2px solid white;
   width: 60px;
   margin: 0 auto;
   margin-top: 60px;
 }
-.main-button{
+.main-button {
   background: none;
   border: none;
   outline: 2px solid #ffffff;
   padding: 10px 30px;
-      font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #ffffff;
   margin-left: 337px;
@@ -122,21 +122,24 @@ header {
   cursor: pointer;
 }
 .step {
-  text-align: center;
   cursor: pointer;
 }
-.steps{
+.steps {
   display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-top: 130px;
 }
 .step-line {
-  width: 150px; /* длина полоски */
+  width: 280px;
   height: 2px;
-  background: #ccc; /* изначально серая */
+  background: #e2e2e2;
   margin: 0 auto 10px auto;
 }
 
 .step-text {
-  color: #ccc; /* изначально серый текст */
+  color: #e2e2e2;
   font-weight: 700;
   font-size: 16px;
   transition: color 0.3s;
@@ -146,9 +149,44 @@ header {
   font-weight: bold;
 }
 
-/* Ховер: цветная полоса и текст */
-.step:hover .step-line,
+.step:hover .step-line {
+  background: #e47676;
+}
 .step:hover .step-text {
-  color: #e47676;          /* розовый цвет текста при ховере */
-  background: #e47676;     /* розовая линия при ховере */
+  color: white;
+}
+.what-we-do-text {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  padding-top: 90px;
+}
+.abt-us-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+  padding-top: 20px;
+}
+.what-we-do-line{
+  width: 60px;
+  outline: 2px solid  #e47676;
+  margin-left: 580px;
+  margin-top: 40px;
+}
+.what-we-do-parahraph{
+    font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      color: #999999;
+      /* width: 950px; */
+      text-align: center;
+      padding-top: 48px;
+}
+.what-we-do-pics{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 110px;
 }
