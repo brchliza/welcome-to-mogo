@@ -170,23 +170,128 @@ header {
   color: #333333;
   padding-top: 20px;
 }
-.what-we-do-line{
+.what-we-do-line {
   width: 60px;
-  outline: 2px solid  #e47676;
+  outline: 2px solid #e47676;
   margin-left: 580px;
   margin-top: 40px;
 }
-.what-we-do-parahraph{
-    font-family: "Roboto", sans-serif;
-      font-weight: 400;
-      color: #999999;
-      /* width: 950px; */
-      text-align: center;
-      padding-top: 48px;
+.what-we-do-parahraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  /* width: 950px; */
+  text-align: center;
+  padding-top: 48px;
 }
-.what-we-do-pics{
+.what-we-do-pics {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 110px;
 }
+.numbers-section {
+  background-color: #95e1d3;
+  height: 270px;
+  margin-top: 110px;
+}
+.number-title {
+  font-size: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.abt-num-paragraph {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 30px;
+}
+.numbers-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers-list {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 65px;
+}
+.icons-img {
+  padding-right: 30px;
+  height: 30px;
+}
+.icons-item {
+  display: flex;
+}
+.icons-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  width: 270px;
+  padding-top: 15px;
+  color: #999999;
+}
+.icons-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+.for-all-devices {
+  background: linear-gradient(#ffffffda, #ffffffda), url(./img/White.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  margin-top: 120px;
+}
+.gadgets {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+.phone {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 200px;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+}
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid #d1d1d1;
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  width: 600px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.tab-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  margin-left: -385px;
+}
+
+
