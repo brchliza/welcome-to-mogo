@@ -28,7 +28,7 @@ body {
 .container {
   width: 1215px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 header {
   background: linear-gradient(#e68282e1, #efd089d7), url(./img/eagle.png);
@@ -126,7 +126,7 @@ header {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  padding-top: 130px;
+  padding-top: 115px;
 }
 .step-line {
   width: 280px;
@@ -186,6 +186,37 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 110px;
+}
+.what-we-do-item {
+  position: relative;      
+  overflow: hidden;  
+  display: inline-block;   
+}
+.overlay-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#e68282e1, #efd089d7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.what-we-do-item:hover .overlay {
+  opacity: 1; 
 }
 .numbers-section {
   background-color: #95e1d3;
@@ -523,4 +554,136 @@ header {
   outline: 2px solid #e47676;
   margin-left: 580px;
   margin-top: 22px;
+}
+footer{
+  height: 560px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+}
+.footer-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  color: #cccccc;
+}
+.mogo-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #999999;
+  width: 460px;
+  padding-top: 40px;
+}
+.followers-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+}
+.followers {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  padding-top: 40px;
+}
+.mogo-line {
+  outline: 1px solid #999999;
+  width: 480px;
+  margin-top: 20px;
+}
+.follow-us {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.follow-us-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  font-size: 15px;
+}
+.input-div {
+  padding-top: 40px;
+  display: flex;
+  width: 380px;
+}
+.subscribe-input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-right: none;
+  outline: none;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.input-btn {
+  background-color: #95e1d3;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
+.blogs-title{
+     color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.post-list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 40px;
+}
+.post-item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post-paragraph{
+   color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  width: 195px;
+}
+.posts-data{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  font-size: 13px;
+}
+.instagram-title{
+      color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.instagram-pics{
+  width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.more-photos-link{
+      font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+  font-size: 13px;
+  margin-top: 20px;
 }
